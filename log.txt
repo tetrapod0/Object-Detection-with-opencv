@@ -98,3 +98,28 @@ TypeError: expected string
 2024-04-09 19:04:26,047 - root - INFO - Detect Time : 0.014
 2024-04-09 19:04:33,745 - root - INFO - Detect Time : 0.013
 2024-04-09 19:04:58,434 - root - INFO - Stop button clicked.
+2024-04-09 19:17:25,695 - root - INFO - applied.
+2024-04-09 19:19:25,436 - root - INFO - applied.
+2024-04-09 19:21:34,860 - root - INFO - applied.
+2024-04-09 19:24:58,726 - root - INFO - applied.
+2024-04-09 19:25:08,973 - root - INFO - Detect Time : 0.024
+2024-04-09 19:25:11,774 - root - INFO - Detect Time : 0.024
+2024-04-09 19:25:13,315 - root - INFO - Detect Time : 0.026
+2024-04-09 19:25:21,025 - root - INFO - Detect Time : 0.027
+2024-04-09 19:25:42,618 - root - INFO - Detect Time : 0.027
+2024-04-09 19:26:47,844 - root - INFO - Detect Time : 0.027
+2024-04-09 19:27:30,747 - root - INFO - Detect Time : 0.024
+2024-04-09 19:27:33,197 - root - INFO - Detect Time : 0.025
+2024-04-09 19:27:34,336 - root - INFO - Detect Time : 0.026
+2024-04-09 19:27:36,184 - root - INFO - Detect Time : 0.027
+2024-04-09 19:27:37,921 - root - INFO - Detect Time : 0.018
+2024-04-09 19:27:38,856 - root - INFO - Detect Time : 0.026
+2024-04-09 19:27:41,203 - root - INFO - Detect Time : 0.026
+2024-04-09 19:27:43,952 - root - INFO - Detect Time : 0.025
+2024-04-09 19:27:52,874 - root - INFO - Detect Time : 0.027
+2024-04-09 19:27:57,349 - root - INFO - Detect Time : 0.026
+2024-04-09 19:28:18,592 - root - INFO - Detect Time : 0.026
+2024-04-09 19:28:20,185 - root - INFO - Detect Time : 0.027
+2024-04-09 19:28:21,022 - root - INFO - Detect Time : 0.027
+2024-04-09 19:28:58,637 - root - INFO - Detect Time : 0.029
+2024-04-09 19:29:02,600 - root - INFO - Detect Time : 0.029
