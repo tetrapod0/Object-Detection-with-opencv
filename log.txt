@@ -1,0 +1,100 @@
+2024-04-09 18:23:10,783 - root - ERROR - an error in [find_poly_thread]
+2024-04-09 18:23:10,783 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\__Private\_SPACE\Object-Detection-with-opencv\utils\process.py", line 258, in find_poly_thread
+    self.recode_Q.put([img_mask, 'debug', '']) # debug save
+    ^^^^^^^^^^^^^
+AttributeError: 'AddWindow' object has no attribute 'recode_Q'
+
+2024-04-09 18:44:02,678 - root - INFO - applied.
+2024-04-09 18:44:14,787 - root - ERROR - an error in [read]
+2024-04-09 18:44:14,788 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\__Private\_SPACE\Object-Detection-with-opencv\utils\process.py", line 119, in read
+    if img is not None: self.recode_Q.put([img, 'raw', None])
+                        ^^^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\tkinter\__init__.py", line 2429, in __getattr__
+    return getattr(self.tk, attr)
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_tkinter.tkapp' object has no attribute 'recode_Q'
+
+2024-04-09 18:53:43,195 - root - INFO - applied.
+2024-04-09 18:54:03,795 - root - INFO - Detect Time : 0.015
+2024-04-09 18:55:18,921 - root - INFO - applied.
+2024-04-09 18:58:50,072 - root - INFO - applied.
+2024-04-09 18:59:00,905 - root - INFO - Detect Time : 0.014
+2024-04-09 18:59:00,939 - root - ERROR - an error in [analysis]
+2024-04-09 18:59:00,939 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\__Private\_SPACE\Object-Detection-with-opencv\utils\process.py", line 156, in analysis
+    data = self.ocr_engine(date_img, use_beam=True)
+                           ^^^^^^^^
+NameError: name 'date_img' is not defined
+
+2024-04-09 18:59:22,827 - root - INFO - applied.
+2024-04-09 18:59:32,441 - root - INFO - applied.
+2024-04-09 18:59:46,211 - root - INFO - Detect Time : 0.015
+2024-04-09 18:59:46,299 - root - ERROR - an error in [draw]
+2024-04-09 18:59:46,302 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\__Private\_SPACE\Object-Detection-with-opencv\utils\process.py", line 223, in draw
+    img_draw.text((x,y), data, font=font_pil, fill=(*color, 0))
+  File "C:\_MAIN\__Private\_SPACE\env\od_with_cv\Lib\site-packages\PIL\ImageDraw.py", line 590, in text
+    draw_text(ink)
+  File "C:\_MAIN\__Private\_SPACE\env\od_with_cv\Lib\site-packages\PIL\ImageDraw.py", line 529, in draw_text
+    mask, offset = font.getmask2(
+                   ^^^^^^^^^^^^^^
+  File "C:\_MAIN\__Private\_SPACE\env\od_with_cv\Lib\site-packages\PIL\ImageFont.py", line 592, in getmask2
+    return self.font.render(
+           ^^^^^^^^^^^^^^^^^
+TypeError: expected string
+
+2024-04-09 19:00:41,413 - root - INFO - Detect Time : 0.014
+2024-04-09 19:00:41,501 - root - ERROR - an error in [draw]
+2024-04-09 19:00:41,502 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\__Private\_SPACE\Object-Detection-with-opencv\utils\process.py", line 223, in draw
+    x, y = dst_polys[i, 0, 0], dst_polys[i, 0, 1]-40
+  File "C:\_MAIN\__Private\_SPACE\env\od_with_cv\Lib\site-packages\PIL\ImageDraw.py", line 590, in text
+    draw_text(ink)
+  File "C:\_MAIN\__Private\_SPACE\env\od_with_cv\Lib\site-packages\PIL\ImageDraw.py", line 529, in draw_text
+    mask, offset = font.getmask2(
+                   ^^^^^^^^^^^^^^
+  File "C:\_MAIN\__Private\_SPACE\env\od_with_cv\Lib\site-packages\PIL\ImageFont.py", line 592, in getmask2
+    return self.font.render(
+           ^^^^^^^^^^^^^^^^^
+TypeError: expected string
+
+2024-04-09 19:00:47,375 - root - INFO - applied.
+2024-04-09 19:00:49,882 - root - INFO - Detect Time : 0.014
+2024-04-09 19:00:49,971 - root - ERROR - an error in [draw]
+2024-04-09 19:00:49,973 - root - ERROR - Traceback (most recent call last):
+  File "C:\_MAIN\__Private\_SPACE\Object-Detection-with-opencv\utils\process.py", line 224, in draw
+    img_draw.text((x,y), data, font=font_pil, fill=(*color, 0))
+  File "C:\_MAIN\__Private\_SPACE\env\od_with_cv\Lib\site-packages\PIL\ImageDraw.py", line 590, in text
+    draw_text(ink)
+  File "C:\_MAIN\__Private\_SPACE\env\od_with_cv\Lib\site-packages\PIL\ImageDraw.py", line 529, in draw_text
+    mask, offset = font.getmask2(
+                   ^^^^^^^^^^^^^^
+  File "C:\_MAIN\__Private\_SPACE\env\od_with_cv\Lib\site-packages\PIL\ImageFont.py", line 592, in getmask2
+    return self.font.render(
+           ^^^^^^^^^^^^^^^^^
+TypeError: expected string
+
+2024-04-09 19:01:35,988 - root - INFO - applied.
+2024-04-09 19:01:38,928 - root - INFO - Detect Time : 0.014
+2024-04-09 19:01:44,820 - root - INFO - Stop button clicked.
+2024-04-09 19:02:09,132 - root - INFO - Detect Time : 0.014
+2024-04-09 19:02:20,322 - root - INFO - Stop button clicked.
+2024-04-09 19:02:27,282 - root - INFO - Stop button clicked.
+2024-04-09 19:02:27,342 - root - INFO - Detect Time : 0.016
+2024-04-09 19:02:31,030 - root - INFO - Detect Time : 0.013
+2024-04-09 19:02:33,627 - root - INFO - Stop button clicked.
+2024-04-09 19:02:35,294 - root - INFO - Stop button clicked.
+2024-04-09 19:02:36,823 - root - INFO - Stop button clicked.
+2024-04-09 19:02:39,695 - root - INFO - Detect Time : 0.013
+2024-04-09 19:02:42,436 - root - INFO - Detect Time : 0.013
+2024-04-09 19:02:44,573 - root - INFO - Detect Time : 0.013
+2024-04-09 19:02:45,799 - root - INFO - Detect Time : 0.012
+2024-04-09 19:02:47,785 - root - INFO - Detect Time : 0.012
+2024-04-09 19:02:48,960 - root - INFO - Detect Time : 0.013
+2024-04-09 19:02:54,273 - root - INFO - Detect Time : 0.013
+2024-04-09 19:04:22,372 - root - INFO - applied.
+2024-04-09 19:04:26,047 - root - INFO - Detect Time : 0.014
+2024-04-09 19:04:33,745 - root - INFO - Detect Time : 0.013
+2024-04-09 19:04:58,434 - root - INFO - Stop button clicked.
